@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px; }
+
+.container {
+  width: 98%;
+  height: auto;
+  margin: 0px auto; }
+  .container__logo {
+    display: flex;
+    flex-direction: column; }
+  .container__img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto; }
+  .container__img:first-of-type {
+    margin-bottom: 70px; }
+
+.title {
+  color: green; }
+
+.profile {
+  width: 95%;
+  height: auto;
+  border: 1px solid #EAEAEA;
+  margin: 0px auto;
+  padding: 15px 5px 15px 5px;
+  margin-bottom: 25px; }
+  .profile__img {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: 0px auto; }
+  .profile__title {
+    color: green;
+    margin-left: 25px; }
+  .profile__text {
+    margin-left: 25px; }
+
+@media screen and (min-width: 768px) {
+  .container__profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .profile {
+    width: 40%; }
+  .container__img {
+    width: 40%;
+    right: 0px; }
+  .container__img:first-of-type {
+    margin-bottom: 70px; } }
+
+@media screen and (min-width: 1024px) {
+  .container__profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .profile {
+    width: 30%; } }
