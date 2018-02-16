@@ -26,6 +26,10 @@
 
 }
 
+h1{
+	font-family: Times;
+}
+
 .title{
 	color: green;
 }
@@ -57,13 +61,20 @@
 
 }
 @media screen and (min-width: 768px){
+	.container__logo {
+    display: flex;
+    flex-direction: row;
+    }
+
+
+
 	.container__profile{
 		display:flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-	.profile{
-		width:40%;
+
+	
 
 	}
 	.container{
@@ -76,7 +87,7 @@
 		&__img:first-of-type{
     	margin-bottom: 70px;
     }
-	}
+	
 }
 
 @media screen and (min-width: 1024px){

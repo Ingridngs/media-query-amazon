@@ -18,6 +18,9 @@
   .container__img:first-of-type {
     margin-bottom: 70px; }
 
+h1 {
+  font-family: Italica; }
+
 .title {
   color: green; }
 
@@ -40,17 +43,20 @@
     margin-left: 25px; }
 
 @media screen and (min-width: 768px) {
+  .container__logo {
+    display: flex;
+    flex-direction: row; }
   .container__profile {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
-  .profile {
-    width: 40%; }
-  .container__img {
-    width: 40%;
-    right: 0px; }
-  .container__img:first-of-type {
-    margin-bottom: 70px; } }
+    justify-content: space-between; } }
+
+.container__img {
+  width: 40%;
+  right: 0px; }
+
+.container__img:first-of-type {
+  margin-bottom: 70px; }
 
 @media screen and (min-width: 1024px) {
   .container__profile {
